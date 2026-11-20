@@ -1,5 +1,6 @@
 ---
 base_model: unsloth/llama-3-8b
+base_model_relation: finetune
 language:
 - en
 license: llama3
@@ -20,6 +21,8 @@ tags:
 
 <div align="center">
 
+![Llama-3-Legal-8B](banner.png)
+
 # ⚖️ Llama-3-Legal-8B
 
 **Finds and quotes clauses in commercial contracts, or tells you plainly that they aren't there.**
@@ -36,6 +39,8 @@ tags:
 | word overlap with the correct clause<br>(previous version: 0.185) | of answers are real text from the contract<br>(previous version: 12.3%) | correct "Not found." when the clause is absent<br>(previous version: 0%) |
 
 <sub>Measured on 1,000 pages from 102 contracts the model never saw during training.</sub>
+
+> 🔁 **Downloaded before 20 November 2026?** That copy is the old version. Python code that loads this repo updates automatically. **GGUF files must be downloaded again.** The old version remains in this repo's [history](https://huggingface.co/CSroseX/Llama-3-Legal-8B/tree/1b6a47d9321c73464466131d1d7eb594c1e6c847).
 
 ---
 
@@ -218,7 +223,6 @@ The first version of this model (2024) rambled and invented answers. It has been
 | **Files** | Old weights stored twice (`.bin` + `.safetensors`, 40.7 GB) | One set of weights plus Q8_0 and Q4_K_M GGUF |
 | **Evidence** | None | Measured on unseen contracts, with reproducible notebooks |
 
-> 🔁 **Downloaded before 20 November 2026?** That copy is the old version. Python code that loads this repo updates automatically. **GGUF files must be downloaded again.** The old version remains in this repo's [history](https://huggingface.co/CSroseX/Llama-3-Legal-8B/tree/1b6a47d9321c73464466131d1d7eb594c1e6c847).
 
 ---
 
