@@ -28,7 +28,7 @@ tags:
 **Finds and quotes clauses in commercial contracts, or tells you plainly that they aren't there.**
 
 [![Built with Meta Llama 3](https://img.shields.io/badge/Built%20with-Meta%20Llama%203-0467DF)](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
-[![License: Llama 3](https://img.shields.io/badge/License-Llama%203%20Community-blue)](./LICENSE)
+[![License: Llama 3](https://img.shields.io/badge/License-Llama%203%20Community-blue)](https://huggingface.co/CSroseX/Llama-3-Legal-8B/blob/main/LICENSE)
 [![Dataset: CUAD](https://img.shields.io/badge/Dataset-CUAD-orange)](https://huggingface.co/datasets/theatticusproject/cuad-qa)
 [![GGUF](https://img.shields.io/badge/GGUF-Q8__0%20%7C%20Q4__K__M-green)](#run-locally-gguf)
 
@@ -193,7 +193,7 @@ Every step is reproducible from the notebooks in **[github.com/CSroseX/Legal-Lla
 
 ## License and credits
 
-- **Built with Meta Llama 3.** Licensed under the [Meta Llama 3 Community License](./LICENSE), and use must follow Meta's [Acceptable Use Policy](https://llama.meta.com/llama3/use-policy). See [NOTICE](./NOTICE).
+- **Built with Meta Llama 3.** Licensed under the [Meta Llama 3 Community License](https://huggingface.co/CSroseX/Llama-3-Legal-8B/blob/main/LICENSE), and use must follow Meta's [Acceptable Use Policy](https://llama.meta.com/llama3/use-policy). See [NOTICE](https://huggingface.co/CSroseX/Llama-3-Legal-8B/blob/main/NOTICE).
 - **Data:** [CUAD](https://www.atticusprojectai.org/cuad) by The Atticus Project, CC BY 4.0.
 - **Training:** [Unsloth](https://github.com/unslothai/unsloth).
 
