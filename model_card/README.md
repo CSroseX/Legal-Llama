@@ -151,17 +151,19 @@ All three models took the **same exam**: 500 pages that contain the answer and 5
 | Correct "Not found." when nothing was there ↑ | 83.6% | 0.0% | **95.8%** |
 | Answer is **not** real text from the contract ↓ | 93.2% | 87.7% | **0.4%** |
 
-**By clause type** (word overlap, new model):
+**By clause type** (word overlap, new model; clause types with at least 10 test pages):
 
-| Strongest | Score | | Weakest (≥ 10 test pages) | Score |
-|---|:---:|---|---|:---:|
-| Renewal Term | 0.97 | | Change Of Control | 0.28 |
-| Governing Law | 0.97 | | Parties | 0.25 |
-| Expiration Date | 0.96 | | | |
-| Document Name | 0.95 | | | |
-| Agreement Date | 0.93 | | | |
-| Effective Date | 0.91 | | | |
-| Anti-Assignment | 0.86 | | | |
+| Clause type | Score | |
+|---|:---:|---|
+| Renewal Term | 0.97 | ✅ Strong |
+| Governing Law | 0.97 | ✅ Strong |
+| Expiration Date | 0.96 | ✅ Strong |
+| Document Name | 0.95 | ✅ Strong |
+| Agreement Date | 0.93 | ✅ Strong |
+| Effective Date | 0.91 | ✅ Strong |
+| Anti-Assignment | 0.86 | ✅ Strong |
+| Change Of Control | 0.28 | ⚠️ Weak |
+| Parties | 0.25 | ⚠️ Weak |
 
 **Whole-contract test:** 3 complete test contracts × 6 clause types, run through the page-splitting code above. Average score **0.77**.
 
