@@ -28,7 +28,7 @@ tags:
 **Finds and quotes clauses in commercial contracts, or tells you plainly that they aren't there.**
 
 [![Built with Meta Llama 3](https://img.shields.io/badge/Built%20with-Meta%20Llama%203-0467DF)](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
-[![License: Llama 3](https://img.shields.io/badge/License-Llama%203%20Community-blue)](https://huggingface.co/CSroseX/Legal_llama3.1_part5/blob/main/LICENSE)
+[![License: Llama 3](https://img.shields.io/badge/License-Llama%203%20Community-blue)](https://huggingface.co/CSroseX/Llama-3-Legal-8B/blob/main/LICENSE)
 [![Dataset: CUAD](https://img.shields.io/badge/Dataset-CUAD-orange)](https://huggingface.co/datasets/theatticusproject/cuad-qa)
 [![GGUF](https://img.shields.io/badge/GGUF-Q8__0%20%7C%20Q4__K__M-green)](#run-locally-gguf)
 
@@ -40,7 +40,7 @@ tags:
 
 <sub>Measured on 1,000 pages from 102 contracts the model never saw during training.</sub>
 
-> 🔁 **Downloaded before 20 November 2026?** That copy is the old version. Python code that loads this repo updates automatically. **GGUF files must be downloaded again.** The old version remains in this repo's [history](https://huggingface.co/CSroseX/Legal_llama3.1_part5/tree/1b6a47d9321c73464466131d1d7eb594c1e6c847).
+> 🔁 **Downloaded before 20 November 2026?** That copy is the old version. Python code that loads this repo updates automatically. **GGUF files must be downloaded again.** The old version remains in this repo's [history](https://huggingface.co/CSroseX/Llama-3-Legal-8B/tree/1b6a47d9321c73464466131d1d7eb594c1e6c847).
 
 ---
 
@@ -193,7 +193,7 @@ Every step is reproducible from the notebooks in **[github.com/CSroseX/Legal-Lla
 
 ## License and credits
 
-- **Built with Meta Llama 3.** Licensed under the [Meta Llama 3 Community License](https://huggingface.co/CSroseX/Legal_llama3.1_part5/blob/main/LICENSE), and use must follow Meta's [Acceptable Use Policy](https://llama.meta.com/llama3/use-policy). See [NOTICE](https://huggingface.co/CSroseX/Legal_llama3.1_part5/blob/main/NOTICE).
+- **Built with Meta Llama 3.** Licensed under the [Meta Llama 3 Community License](https://huggingface.co/CSroseX/Llama-3-Legal-8B/blob/main/LICENSE), and use must follow Meta's [Acceptable Use Policy](https://llama.meta.com/llama3/use-policy). See [NOTICE](https://huggingface.co/CSroseX/Llama-3-Legal-8B/blob/main/NOTICE).
 - **Data:** [CUAD](https://www.atticusprojectai.org/cuad) by The Atticus Project, CC BY 4.0.
 - **Training:** [Unsloth](https://github.com/unslothai/unsloth).
 
